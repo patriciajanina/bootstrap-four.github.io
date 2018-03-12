@@ -1,0 +1,205 @@
+
+.linkList a{
+    color: inherit !important;
+}
+
+.header-img-wrapper {
+    position: relative;
+}
+
+.img-main-text {
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.5;
+}
+
+.img-main-text2 {
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-img-main-text {
+    width: 30px;
+    height: 30px;
+}
+
+.img-main-text2 h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.img-main-text2 h2 {
+    color: white;
+    font-size: 18px;
+}
+
+.section1 h2 {
+    font-size: 20px;
+}
+
+.section1 p {
+    width: 85%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.check {
+    height: auto;
+}
+
+.section2-main-text {
+    font-size: 20px;
+}
+
+.section2 {
+    background: whitesmoke;
+}
+
+.section2-btn {
+    background: indianred;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+.sec3-icon-wraper h3 {
+    font-size: 20px;
+}
+
+.sec3-icon-wraper p {
+    font-size: 16px;
+}
+
+.section3 h2 {
+    font-size: 23px;
+}
+
+.section3 p {
+    text-align: justify;
+}
+
+.sec4-column h3 {
+    font-size: 20px;
+}
+
+.sec4-column h4 {
+    font-size: 16px;
+    color: #4b5257;
+}
+
+.section4 h2 {
+    font-size: 23px;
+}
+
+.section3a {
+    background: whitesmoke;
+}
+
+.section3a p {
+    text-align: justify;
+    width: 85%;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.section3a h3 {
+    font-size: 20px;
+}
+
+footer {
+    background: whitesmoke;
+}
+
+footer h2 {
+    font-size: 23px;
+}
+
+footer h4 {
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/*----------about*/
+.about-part-one h3 {
+    font-size: 23px;
+}
+
+.about-part-one p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.service-one-wrapper img {
+    height: auto;
+    border: 1px solid silver;
+}
+
+.service-part-one h3 {
+    font-size: 23px;
+}
+
+.service-part-one {
+    background: whitesmoke;
+}
+
+.service-part-two h3 {
+    font-size: 23px;
+}
+
+.service-one-wrapper div {
+    margin: 0 auto;
+}
+
+.contact-des-wrapper p {
+    text-align: justify;
+}
+
+.contact-des-wrapper h4 {
+    font-size: 17px;
+}
+
+.contact-button {
+    width: 130px;
+    height: 40px;
+    background-color: #d9534f;
+    font-size: 14px;
+    color: white;
+    border: none;
+
+}
+
+.contact-section-one h3 {
+    font-size: 23px;
+}
+@media screen and (max-width:830px) {
+    .img-main-text{
+        width: 60vw;
+        height: 28vh;
+
+    }
+    .img-main-text2{
+        width: 50vw;
+        height: 28vh;
+        text-align: center;
+    }
+    .img-main-text2 h1{
+        font-size: 15px;
+    }
+    .img-main-text2 h2{
+        font-size: 15px;
+    }
+}
